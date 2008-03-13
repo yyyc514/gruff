@@ -13,7 +13,7 @@
   side_stacked_bar
   side_bar
   accumulator_bar
-
+  bullet
   scene
 
   mini/legend
@@ -23,5 +23,3 @@
 ).each do |filename|
   require File.dirname(__FILE__) + "/gruff/#{filename}"
 end
-
-# TODO bullet
